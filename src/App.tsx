@@ -1,12 +1,19 @@
 import React from 'react';
-import { Provider } from '@self.id/framework';
+import { ThreeIdConnect } from '@3id/connect';
 import './App.css';
+import { ConnectButton } from './components/ConnectButton';
 
 function App() {
+  const threeIdConnect = new ThreeIdConnect();
+
   return (
-    <Provider client={{ ceramic: 'testnet-clay' }}>
-      Nothing here
-    </Provider>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          <ConnectButton threeIdConnect={threeIdConnect} />
+        </p>
+      </header>
+    </div>
   );
 }
 
