@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Web3Modal from 'web3modal';
 import * as IPFS from 'ipfs-core';
+// TODO user did-session
 import { DID } from 'dids';
 import { EthereumAuthProvider, ThreeIdConnect } from '@3id/connect';
 import { CeramicClient } from '@ceramicnetwork/http-client';
