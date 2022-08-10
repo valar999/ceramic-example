@@ -4,13 +4,13 @@ import './App.css';
 import { ConnectButton } from './components/ConnectButton';
 
 function App() {
-  const threeIdConnect = new ThreeIdConnect();
+  const threeID = new ThreeIdConnect();
 
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          <ConnectButton threeIdConnect={threeIdConnect} />
+          <ConnectButton threeID={threeID} />
         </p>
       </header>
     </div>
