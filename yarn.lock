@@ -8520,6 +8520,17 @@ k-bucket@^5.1.0:
   dependencies:
     randombytes "^2.1.0"
 
+key-did-provider-ed25519@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/key-did-provider-ed25519/-/key-did-provider-ed25519-2.0.1.tgz#7178169831d36cdc99a0640d6bee3cbfd95f9a56"
+  integrity sha512-FaB2g7zUAeN/bLaFl2YSNQx9NsxgDd/3TR1YGvoXLhENsvZBdyA2V7hX8/MZhZ5jm82wL5lRw3O4UXuz/pJANQ==
+  dependencies:
+    "@stablelib/ed25519" "^1.0.2"
+    did-jwt "^6.0.0"
+    fast-json-stable-stringify "^2.1.0"
+    rpc-utils "^0.6.2"
+    uint8arrays "^3.0.0"
+
 key-did-resolver@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/key-did-resolver/-/key-did-resolver-2.0.6.tgz#94ba9d56a9220a72f1b9d1401de3fc3ddc514424"
@@ -10896,7 +10907,7 @@ rollup@^2.43.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rpc-utils@^0.6.0, rpc-utils@^0.6.1:
+rpc-utils@^0.6.0, rpc-utils@^0.6.1, rpc-utils@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/rpc-utils/-/rpc-utils-0.6.2.tgz#3cab779f93048eda69ff198c58b1a2c2e35e3fa6"
   integrity sha512-kzk1OflbBckfDBAo8JwsmtQSHzj+6hxRt5G+u8A8ZSmunBw1nhWvRkSq8j1+EvWBqBRLy1aiGLUW5644CZqQtA==
